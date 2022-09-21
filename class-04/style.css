@@ -1,0 +1,37 @@
+/* this is a comment */
+/* name color */
+/* rgb-->(255,255,255) white rgb-->(255,255,255) black*/
+/* rgba(50, 69, 179, 0.888) */
+/* #ffaabb */
+/* hsl & hsla */
+/* hwb & hwba */
+/* property name color and property value mediumturquoise*/
+h1 {
+  color: mediumturquoise;
+  background-color: black;
+}
+/* parent tag and Child tag */
+/* descendanting selector h1 span */
+h1 span {
+  color: tomato;
+}
+
+/* #lang {
+  color: tomato;
+} */
+
+/* id call by # */
+#auther-data {
+  color: white;
+  background-color: blue;
+}
+
+/* id call by . */
+.colored-paragraph {
+  color: crimson;
+}
+
+/* descendanting selector h1 span */
+div h1 span {
+  color: hotpink;
+}

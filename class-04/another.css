@@ -1,0 +1,36 @@
+p {
+  color: mediumturquoise;
+  background-color: black;
+  height: 100px;
+  /* it depend on the tap size */
+  /* width: 50%; */
+  width: 300px;
+
+  /* four sides
+  margin: 100px; */
+
+  /* up-down left-right
+  margin: 100px 0; */
+
+  /* up right down left*/
+  /* margin: 200px 100px 300px 50px; */
+
+  /* margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 50px;
+  margin-right: 400px; */
+
+  margin: 50px;
+
+  padding: 20px;
+
+  border: 2px solid mediumturquoise;
+  /* border: 2px dotted mediumturquoise; */
+  /* border: 2px dashed mediumturquoise; */
+
+  border-radius: 10px;
+
+  /* border-width: 1px; */
+  /* border-style: dotted; */
+  /* border-color: crimson; */
+}
