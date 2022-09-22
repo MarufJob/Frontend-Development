@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  background-color: whitesmoke;
+}
+
+header .logo h1 {
+  text-transform: uppercase;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.car-bg-container {
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-attachment: scroll; */
+}
+
+.lamborghini {
+  background-image: url(./images/kevin-fitzgerald-kZQ8tkJdqKM-unsplash.jpg);
+}
+.bmw {
+  background-image: url(./images/devon-janse-van-rensburg-yoqHLUayUTg-unsplash.jpg);
+}
+.range-rover {
+  background-image: url(./images/julian-faist-IgzagFw4nUo-unsplash.jpg);
+}
+.maclaren {
+  background-image: url(./images/media-studio-hong-kong-KPhDvQ4C3ig-unsplash.jpg);
+}
+.koenigsegg {
+  background-image: url(./images/yannis-zaugg-xMyu5VQ4su4-unsplash.jpg);
+}
+
+.car-bg-container h1 {
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 250px 0 0 75px;
+}
+
+.car-details-container {
+  margin: 75px;
+  text-align: center;
+}
+
+.car-details-container h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: goldenrod;
+  margin-bottom: 25px;
+}
+.bmw-text h1 {
+  color: crimson;
+}
+.range-rover-text h1 {
+  color: rgb(92, 176, 174);
+}
+.maclaren-text h1 {
+  color: rgb(11, 94, 123);
+}
+.koenigsegg-text h1 {
+  color: rgb(35, 37, 41);
+}
+
+.car-details-container p {
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+.car-details-container a {
+  text-decoration: none;
+  color: white;
+  background-color: goldenrod;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px 25px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.car-details-container a:hover {
+  background-color: rgb(187, 142, 27);
+}
+
+.car-details-container a:active {
+  outline: 5px solid rgba(187, 142, 27, 0.7);
+}
+
+footer p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
