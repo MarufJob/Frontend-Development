@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadows</title>
+    <style>
+      body {
+        background-color: #d4cfc9;
+      }
+      .box01 {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(138, 126, 128);
+        margin: 0 auto 100px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        margin-top: 10pz;
+      }
+
+      .box02 {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(97, 78, 83);
+        margin: 0 auto 100px;
+        border-radius: 10px;
+        box-shadow: -5px -5px 20px rgb(0, 0, 0);
+      }
+      .box03 {
+        width: 300px;
+        height: 300px;
+        background-color: #d4cfc9;
+        margin: 0 auto 100px;
+        border-radius: 10px;
+        /* + color down & - color up */
+        box-shadow: -5px -5px 20px #f1ebe5, 5px 5px 20px #adaaa4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box01"></div>
+    <div class="box02"></div>
+    <div class="box03"></div>
+  </body>
+</html>

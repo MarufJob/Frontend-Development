@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #9e6969;
+  color: #444;
+  font-size: 1.3rem;
+}
+
+table {
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+tbody tr:last-child {
+  border: none;
+}
+
+tbody tr td:nth-child(4) {
+  text-align: right;
+}
+tbody tr td:nth-child(5) {
+  text-align: right;
+}
+tbody tr td:nth-child(3) {
+  text-align: center;
+}
+tbody tr td:first-child {
+  color: royalblue;
+}
+tbody tr td:last-child {
+  display: inline-block;
+  background-color: lightseagreen;
+  margin: 10px auto;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: white;
+}
+
+th,
+td {
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+.under-shipment :last-child {
+  background-color: orangered;
+}
+.not-received :nth-child(6) {
+  background-color: crimson;
+}
