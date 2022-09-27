@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psuedo-Class</title>
+    <style>
+      /*:link, a:visited, a:hover, a:hover , input:focus*/
+      .container a:link,
+      .container a:visited {
+        text-decoration: none;
+        font-family: sans-serif;
+        color: rgb(131, 72, 72);
+        background-color: rgb(40, 165, 196);
+        font-size: 2rem;
+        text-transform: uppercase;
+        padding: 10px 30px;
+        display: inline-block;
+        /* text-align: center; */
+        margin: 100px;
+        border-radius: 5px;
+        transition: 0.5;
+      }
+
+      /* .container a:visited {
+        background-color: brown;
+      } */
+
+      .container a:hover {
+        background-color: tomato;
+        color: white;
+      }
+      .container a:active {
+        background-color: rgb(141, 63, 49);
+      }
+
+      input {
+        font-family: sans-serif;
+        font-size: 2rem;
+        background-color: rgba(0 174 214/0.1);
+        outline: none;
+        border: 3px solid rgb(0 174 214);
+        padding: 10px;
+        border-radius: 5px;
+        /* cursor: text; */
+        transition: 0.3s;
+      }
+
+      input:focus {
+        border-color: tomato;
+      }
+
+      .container p:first-child {
+        color: crimson;
+      }
+      .container p:last-child {
+        color: rgb(88, 132, 142);
+      }
+      .container p:nth-child(2) {
+        color: rgb(85, 38, 161);
+      }
+      .container p:nth-child(2n-1) {
+        color: rgb(42, 153, 88);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="#">Click Me</a>
+      <input type="text" name="name" placeholder="Enter your name" />
+      <h1>maruf</h1>
+      <p>Rukan</p>
+      <p>Naruto</p>
+      <p>Kira</p>
+      <p>Nami</p>
+      <p>Shohan</p>
+    </div>
+  </body>
+</html>
