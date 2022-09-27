@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>typewriter</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+        background-color: antiquewhite;
+      }
+
+      h1 {
+        color: #444;
+        position: relative;
+        display: inline-block;
+        margin-top: 300px;
+      }
+
+      h1::after,
+      h1::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: aqua; */
+      }
+
+      h1::before {
+        background-color: antiquewhite;
+        animation: typewriter 5s steps(26) forwards 1s;
+        /* animation-fill-mode: forwards; */
+        /* animation: typewriter 5s linear; */
+      }
+      h1::after {
+        width: 0.1em;
+        background-color: #444;
+        animation: typewriter 5s steps(26) forwards 1s,
+          blink 0.75s steps(26) infinite;
+      }
+
+      @keyframes typewriter {
+        to {
+          left: 100%;
+        }
+      }
+      @keyframes blink {
+        to {
+          background-color: transparent;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello, My name is Natasha.</h1>
+  </body>
+</html>

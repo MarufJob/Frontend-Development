@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter</title>
+    <style>
+      .image-wrapper {
+        width: 350px;
+        height: 500px;
+        overflow: hidden;
+        margin: 100px auto 0;
+        /* filter: drop-shadow(5px 5px 10px black); */
+      }
+      .image-wrapper img {
+        width: 100%;
+        /* filter: blur(10px); */
+        /* filter: brightness(1.5); */
+        /* filter: contrast(0.6); */
+        /* filter: contrast(0.6); */
+        /* filter: grayscale(0.5); */
+        /* filter: hue-rotate(50deg); */
+        /* filter: invert(0.4); */
+        /* filter: opacity(0.9); */
+        /* opacity: 0.8; */
+        /* filter: saturate(2); */
+        filter: sepia(1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-wrapper">
+      <img
+        src="https://images.unsplash.com/photo-1615789591457-74a63395c990?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwY2F0fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+        alt="Cat"
+      />
+    </div>
+  </body>
+</html>
